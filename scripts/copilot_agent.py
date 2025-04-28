@@ -92,4 +92,5 @@ if __name__ == "__main__":
     else:
         # Initialize and run the bot
         bot = ConfigValidatorBot(file_path)
+
         bot.run(recipients, sender_email, sender_password)
