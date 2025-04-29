@@ -81,8 +81,8 @@ if __name__ == "__main__":
     file_path = r"C:\Program Files\Splunk\etc\apps\logs_splunk\local\inputs.conf"  # Use raw string (r"") for Windows paths
 
     # Email credentials (fetched from environment variables)
-    sender_email = os.getenv("SENDER_EMAIL")  # Your email ID
-    sender_password = os.getenv("EMAIL_PASSWORD")  # Your email password (from environment variable)
+    sender_email ="yaswanthkumarch2001@gmail.com" # Your email ID
+    sender_password ="uqjc bszf djfw bsor" # Your email password (from environment variable)
     recipients = ["yaswanth@middlewaretalents.com"]  # Recipient email ID
 
     # Check if required environment variables are set
