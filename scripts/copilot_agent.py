@@ -1,4 +1,5 @@
 import os
+import requests
 import configparser
 import smtplib
 from email.mime.text import MIMEText
