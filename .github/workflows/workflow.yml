@@ -1,1 +1,11 @@
-nkkhjhbhbj
+name: Your Workflow Name
+
+on:
+  workflow_dispatch:
+  # ... other triggers if any ...
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # your steps here
