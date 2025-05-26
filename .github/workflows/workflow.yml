@@ -1,11 +1,32 @@
-name: Your Workflow Name
+name: Fake CI Echo Workflow
 
 on:
-  workflow_dispatch:
-  # ... other triggers if any ...
-  
+  workflow_dispatch:  # you can run it manually
+
 jobs:
-  build:
+  mock-job:
     runs-on: ubuntu-latest
     steps:
-      # your steps here
+      - name: Start Agent
+        run: echo "🟢 Starting agent on ubuntu-latest"
+
+      - name: Checkout Code
+        run: echo "📦 Checking out code from repository"
+
+      - name: Set Up Node.js
+        run: echo "🛠️ Setting up Node.js environment"
+
+      - name: Install Dependencies
+        run: echo "📥 Installing dependencies (npm install)"
+
+      - name: Run Tests
+        run: echo "🧪 Running tests"
+
+      - name: Build Application
+        run: echo "🏗️ Building application"
+
+      - name: Deploy to Staging
+        run: echo "🚀 Deploying to staging environment"
+
+      - name: Done
+        run: echo "✅ Workflow completed successfully"
