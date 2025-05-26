@@ -8,25 +8,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Start Agent
-        run: echo "🟢 Starting agent on ubuntu-latest"
+        run: echo "ð¢ Starting agent on ubuntu-latest"
 
       - name: Checkout Code
-        run: echo "📦 Checking out code from repository"
+        run: echo "ð¦ Checking out code from repository"
 
       - name: Set Up Node.js
-        run: echo "🛠️ Setting up Node.js environment"
+        run: echo "ð ï¸ Setting up Node.js environment"
 
       - name: Install Dependencies
-        run: echo "📥 Installing dependencies (npm install)"
+        run: echo "Installing dependencies (npm install)"
 
       - name: Run Tests
-        run: echo "🧪 Running tests"
+        run: echo "ð§ª Running tests"
 
       - name: Build Application
-        run: echo "🏗️ Building application"
+        run: echo "ðï¸ Building application"
 
       - name: Deploy to Staging
-        run: echo "🚀 Deploying to staging environment"
+        run: echo "ð Deploying to staging environment"
 
       - name: Done
-        run: echo "✅ Workflow completed successfully"
+        run: echo "â Workflow completed successfully"
+      - name: Done
+        run: echo "â Workflow completed successfully and flow created successfully "
