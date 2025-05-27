@@ -7,8 +7,6 @@ on:
       - main
   # other triggers if needed
 
-jobs:
-  build:
     runs-on: ubuntu-latest
     steps:
       - run: echo "World"
